@@ -1,0 +1,17 @@
+/*clearfix:after { content: ""; display: table; clear: both; }*/
+.main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+form {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}

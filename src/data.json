@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "locationName": "Tel-Aviv",
+      "temperture": 31,
+      "humidity": 66,
+      "windSpeed": 23,
+      "iconOfWeatherState": "../weathericons/sunny.png"
+    },
+    {
+      "id": 2,
+      "locationName": "Haifa",
+      "temperture": 28,
+      "humidity": 68,
+      "windSpeed": 21,
+      "iconOfWeatherState": "../weathericons/partly_cloudy.png"
+    },
+    {
+      "id": 3,
+      "locationName": "Jerusalem",
+      "temperture": 32,
+      "humidity": 65,
+      "windSpeed": 21,
+      "iconOfWeatherState": "../weathericons/sunny.png"
+    }
+  ]
+}

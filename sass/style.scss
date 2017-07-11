@@ -1,0 +1,20 @@
+.SearchPreview , .DataPreview{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin: 1em;
+  border: 1px solid #ccc;
+  .location-name {
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    background-color: #eee;
+  }
+  div {
+    width: 20%;
+    padding: 1.5em;
+    span {
+      margin-left: 5px;
+    }
+  }
+}

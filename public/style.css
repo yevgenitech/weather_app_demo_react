@@ -1,0 +1,16 @@
+.SearchPreview, .DataPreview {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin: 1em;
+  border: 1px solid #ccc; }
+  .SearchPreview .location-name, .DataPreview .location-name {
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    background-color: #eee; }
+  .SearchPreview div, .DataPreview div {
+    width: 20%;
+    padding: 1.5em; }
+    .SearchPreview div span, .DataPreview div span {
+      margin-left: 5px; }
